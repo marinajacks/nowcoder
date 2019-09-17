@@ -51,6 +51,23 @@ Created on Mon Aug 19 19:50:20 2019
   
   下面是上面的算法的实现
   '''
+
+x='1234'
+y='34215'
+print([i==j for i,j in zip(x,y)])
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 def test(a):
     c=[]
     while(a>0):
@@ -70,3 +87,311 @@ def test(a):
 def main():
     N=int(input())
     print(test(N))
+
+
+
+'''
+
+
+'''
+
+
+a='misakamikotodaisuki'
+ 
+ 
+def test1(n,a):
+    b=list(a)
+    c=[]
+    d=[]
+    for i in b:
+        if(i not in c):
+            c.append(i)
+            d.append(0)
+        
+    for i in b:
+        for j in range(len(c)):
+            if(i==c[j]):
+                d[j]=d[j]+1
+    
+    k=0
+    l=-1
+    for i in range(len(d)):
+        if(d[i]==1):
+            k=k+1
+            l=i
+        if(k==n):
+            break
+
+    if(l!=-1):
+        result='['+c[l]+']'
+    else:
+        result='Myon~'
+    return result
+            
+
+def main1(): 
+    a=list(map(str,input().split(" ")))
+    d=""
+    for i in range(1,len(a)):
+        d=d+a[i]
+    result=test1(int(a[0]),d)
+    print(result)
+    
+
+
+a=''
+while(a!='END'):
+    a=input()
+    print(a)
+    
+  
+    
+import math
+ 
+def test2(a):
+    d=2*a[0]
+    x1=a[1]
+    y1=a[2]
+    x2=a[3]
+    y2=a[4]
+    dist=math.sqrt(pow(x2-x1,2)+pow(y2-y1,2))
+    num=round(dist/d)
+    return num
+
+
+a=list(map(int,input().split(" ")))
+print(test2(a))
+    
+
+
+
+
+
+
+
+
+import math
+ 
+def test2(a):
+    d=2*a[0]
+    x1=a[1]
+    y1=a[2]
+    x2=a[3]
+    y2=a[4]
+    dist=math.sqrt(pow(x2-x1,2)+pow(y2-y1,2))
+    num=round(dist/d)
+    return num
+
+a=list(map(int,input().split(" ")))
+
+
+print(test2(a))
+
+
+
+import sys 
+for line in sys.stdin:
+    a = line.split()
+    print(int(a[0]) + int(a[1]))
+    
+    
+    
+    
+N=int(input())
+a=list(map(int,input().split(" ")))
+
+
+def maxs(a):
+    mas=0
+    for i in a:
+        if(i>mas):
+            mas=i
+    return mas
+
+b=[1,2,4,6,7,8]
+for j in range(1,len(b)):
+    c=[]
+    for i in range(len(b)-1):
+        if(j==i):
+            c.append(b[i+2]-b[i])
+        else:
+            c.append(b[i+1]-b[i])
+    print(c)
+    
+    
+    
+    
+    
+    
+def test(n,a):
+    
+    
+    
+n=int(input())
+a=[]
+for i in range(n-1):
+    a.append(list(map(int,input().split(" "))))
+    
+    
+    
+    
+    
+
+
+def test2(m,n):
+    
+    
+m=list(map(int,input().split(" ")))
+n=list(map(int,input().split(" ")))
+
+
+
+
+
+
+    
+def test3(m,n):
+    
+    
+m=list(map(int,input().split(" ")))
+n=list(map(int,input().split(" ")))
+
+
+
+
+
+
+
+def dfs(node):
+    if node is None:
+        return
+    #建立空栈、建立空集合
+    stack = []
+    nodeSet = set()
+    # 打印节点加入节点
+    print(node.value)
+    nodeSet.add(node)
+    stack.append(node)
+    while len(stack)>0:
+        cur = stack.pop()  #弹出最近入栈的节点
+        for next in cur.nexts: #遍历该节点的邻接节点
+            if next not in nodeSet:
+                # 把节点压入 邻接节点压入 登记节点 打印节点值 退出当前循环
+                stack.append(cur)
+                stack.append(next)
+                nodeSet.add(next)
+                print(next.value)
+                break
+
+node=[[1,2],[1,3],[3,4]]
+
+
+
+
+
+
+def dfs(adj, start):
+    visited = set()
+    stack = [[start, 0]]
+    while stack:
+        (v, next_child_idx) = stack[-1]
+        if (v not in adj) or (next_child_idx >= len(adj[v])):
+            stack.pop()
+            continue
+        next_child = adj[v][next_child_idx]
+        stack[-1][1] += 1
+        if next_child in visited:
+            continue
+        print(next_child)
+        visited.add(next_child)
+        stack.append([next_child, 0])
+ 
+ 
+graph = {1: [4, 2], 2: [3, 4], 3: [4], 4: [5]}
+dfs(graph, 1)
+
+
+def test(a):
+    flag=True
+    if(flag<0):
+        flag=False
+    else:
+        c=list(str(a))
+        for i in range(int(len(c)/2)):
+            if(c[i]!=c[len(c)-i-1]):
+               flag=False
+               break
+    return flag
+           
+
+
+nums = [-1, 0, 1, 2, -1, -4]
+b=[]
+for i in range(len(nums)):
+    for j in range(i+1,len(nums)):
+        for k in range(i+j+1,len(nums)):
+            if(nums[i]+nums[j]+nums[k]==0):
+                c=[]
+                c.append(nums[i])
+                c.append(nums[j])
+                c.append(nums[k])
+                print([i,j,k])
+                print('数值')
+                print(c)
+                b.append(c)
+        
+        
+        
+        
+a=input()
+b=list(a)
+if(b[0]=='-'):
+    del b[0]
+b.reverse()
+
+i=0
+while i<len(b):
+    if(b[0]=='0'):
+        del b[0]
+    else:
+        break
+    
+    
+c="".join(b)
+
+c=""
+if(len(b)>0):
+    for i in b:
+        c=c+i
+
+c=int(c)
+
+
+
+
+    def reverse(x):
+        b=list(str(x))
+        if(b[0]=='-'):
+            del b[0]
+        b.reverse()
+        i=0
+        while i<len(b):
+            if(b[0]=='0'):
+                del b[0]
+            else:
+                break
+        c=""
+        if(len(b)>0):
+            for i in b:
+                c=c+i
+  
+        return int(c)
+
+d=[]
+for i in b:
+    d.append(int(i))
+    
+    
+sum=0
+for i in range(len(d)):
+    sum=sum+d[i]*pow(10,len(d)-i-1)
