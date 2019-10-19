@@ -11,4 +11,41 @@ Created on Sat Oct 19 09:10:51 2019
 3.我们这里判断一个数既是回文数又是素数，例如131就满足这两个条件，然后我们需要注意的是，现在
 的区间是100到150之间，那个这个区间中的回文数有两个，所以返回的结果是2.
 """
+import math
+'''判断一个是不是素数，基本的处理思路是，只要计算从2到这个数的算术平方根的中是不是存在这个
+数的因子即可，如果有的话这个数就不是素数，否则就是。
+'''
+def isprime(a):
+    flag=True
+    b=int(math.sqrt(a))
+    for i in range(2,b+1):
+        if(a%i==0):
+            flag=False
+            break
+    return flag
 
+
+
+#基本处理方式是将int型的数字转化成字符转，判断字符串是不是堆成的即可。
+def palind(a):
+    b=list(str(a))
+    lens=int(len(b)/2)
+    flag=True
+    for i in range(lens):
+        if(b[i]!=b[len(b)-i-1]):
+            flag=False
+            break
+    return flag
+#同时判断这个数是不是素数和回文数，如果都满足的话才算是满足要求的数，否则就不是
+def test(a,b):
+    nums=0
+    for i in range(a,b+1):
+        if(isprime(i)==True and palind(i)==True):
+            nums=nums+1
+    return nums
+     
+#主函数直接格式化输入即可   
+if __name__=="__main__":
+    a=list(map(int,input().split(' ')))
+    print(test(a[0],a[1]))
+    
