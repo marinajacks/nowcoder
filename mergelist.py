@@ -23,6 +23,8 @@ def merge(a,b):
 def merge1(a,b):
     
     
+    
+    
     return 0
     
     
@@ -32,4 +34,11 @@ def merge1(a,b):
 if __name__=='__main__':
     a=[10, 10, 17, 18, 19, 20]
     b=[10, 16, 29, 33, 38]
+    a.extend(b)
     print(merge(a,b))
+    
+    
+    
+    
+    
+    
