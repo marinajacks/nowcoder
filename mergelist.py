@@ -15,3 +15,21 @@ def merge(a,b):
     c.sort()
     return c
     
+
+
+'''
+这种方式就是在第一种
+'''
+def merge1(a,b):
+    
+    
+    return 0
+    
+    
+    
+    
+    
+if __name__=='__main__':
+    a=[10, 10, 17, 18, 19, 20]
+    b=[10, 16, 29, 33, 38]
+    print(merge(a,b))
