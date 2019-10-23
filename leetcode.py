@@ -7,8 +7,6 @@ Created on Tue Oct 22 16:38:41 2019
 这个是leetcode上的一些题目的求解，自己就把这个当成草稿纸一样来进行书写。
 """
 
-
-
 #7.整数反转
 def reverse(x) -> int:
         if (x==0 or x>(pow(2,31)-1) or x<(-pow(2,31))):
@@ -43,4 +41,23 @@ if __name__=="__main__":
     x=int(input())
     print(reverse(x))
     
+#8.字符串转换整数（atoi)
+    
+    
+    x="-1920"
+    a=list(x.strip())
+    if(a[0]=='-'):
         
+        
+        
+        
+        
+def test(a,b,n):
+    c=[]
+    
+    d=[] 
+    for i in range(n):
+     
+        d.append(a)
+        
+    
