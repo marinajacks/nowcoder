@@ -43,21 +43,42 @@ if __name__=="__main__":
     
 #8.字符串转换整数（atoi)
     
-    
-    x="-1920"
+def test3(x):
     a=list(x.strip())
-    if(a[0]=='-'):
-        
-        
-        
-        
-        
-def test(a,b,n):
-    c=[]
+    b=""
+    if(len(a)>0):
+        if(a[0]=='-'):
+            b=b+a[0]
+            del a[0]
+            for i in range(len(a)):
+                b=b+a[i]
+                if(a[i].isdigit()==False):
+                    b=b[0:-1]
+                    break
+        elif (a[0].isdigit()):
+            for i in range(len(a)):
+                b=b+a[i]
+                if(a[i].isdigit()==False):
+                    b=b[0:-1]
+                    break
+        else:
+            b=0
+    else:
+        b=0
+    b=int(b)
+    if(b>pow(2,31)-1):
+        b=pow(2,31)-1
+    if(b<-pow(2,31)):
+        b=-pow(2,31)
     
-    d=[] 
-    for i in range(n):
-     
-        d.append(a)
+    return b 
+        
+
+        
+        
+        
+        
+    
+    
         
     
