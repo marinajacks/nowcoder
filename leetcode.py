@@ -79,7 +79,7 @@ def test3(x):
 def sctip17(a):
     c=[]
     if(a==2):
-        c-'a','b','c']
+        c=['a','b','c']
     elif(a==3)
         case 2:
             c=['a','b','c']
