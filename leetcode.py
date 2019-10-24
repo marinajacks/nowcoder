@@ -79,14 +79,23 @@ def test3(x):
 def sctip17(a):
     c=[]
     if(a==2):
-        c-'a','b','c']
-    elif(a==3)
-        case 2:
-            c=['a','b','c']
-        case 3:
-            c=['d','e','f']
-            
-    
+        c=['a','b','c']
+    elif(a==3):
+        c=['d','e','f']
+    elif(a==4):
+        c=['g','h','i']
+    elif(a==5):
+        c=['j','k','l']
+    elif(a==6):
+        c=['m','n','o']
+    elif(a==7):
+        c=['p','q','r','s']
+    elif(a==8):
+        c=['t','u','v']
+    elif(a==9):
+        c=['w','x','y','z']
+    else:
+        c=[]
     return c
 
 
