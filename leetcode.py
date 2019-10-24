@@ -74,7 +74,22 @@ def test3(x):
     return b 
         
 
-        
+#17.电话号码的字母组合
+    
+def sctip17(a):
+    c=[]
+    if(a==2):
+        c-'a','b','c']
+    elif(a==3)
+        case 2:
+            c=['a','b','c']
+        case 3:
+            c=['d','e','f']
+            
+    
+    return c
+
+
         
         
         
