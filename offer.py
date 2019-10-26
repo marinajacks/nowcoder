@@ -8,3 +8,8 @@ def ReOrder(a):
         if(i%2==1):
             b.append(a[i])
     return b
+
+
+
+#面试题11：旋转数组的最小数字
+    
