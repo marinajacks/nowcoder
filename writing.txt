@@ -11,4 +11,8 @@ def finds(A,b):
     return -1
 '''2)使用二分法查找。这种方法的事件复杂度是O(logn)。  '''
 def binfinds(A,b):
+	i=0
+	j=len(a)
+	while i<=j:
+		
 	
