@@ -143,18 +143,23 @@ def test54(a):
     height=len(a)
     width=len(a[0])
     d=min(height,width)
+    result=[]
     if(d%2==0):
         k=0
         while(k<d/2):
             i=k
             for j in range(k,len(a[i])-k):
                 print(a[i][j])
+                result.append(a[i][j])
             for i in range(1+k,height-k):
                 print(a[i][j])
+                result.append(a[i][j])
             for j in range(width-1-1-k,-1+k,-1):
                 print(a[i][j])
+                result.append(a[i][j])
             for i in range(height-1-1-k,0+k,-1):
                 print(a[i][j])
+                result.append(a[i][j])
             k=k+1
     else:
         k=0
@@ -162,14 +167,57 @@ def test54(a):
             i=k
             for j in range(k,len(a[i])-k):
                 print(a[i][j])
+                result.append(a[i][j])
             for i in range(1+k,height-k):
                 print(a[i][j])
+                result.append(a[i][j])
             for j in range(width-1-1-k,-1+k,-1):
                 print(a[i][j])
+                result.append(a[i][j])
             for i in range(height-1-1-k,0+k,-1):
                 print(a[i][j])
+                result.append(a[i][j])
             k=k+1
         i=k
         for j in range(k,len(a[i])-k):
             print(a[i][j])
+            result.append(a[i][j])
+    return result
     
+
+
+    def spiralOrder(matrix):
+        height=len(matrix)
+        width=len(matrix[0])
+        d=min(width,height)
+        result=[]
+        if(d%2==0):
+            k=0
+            while (k<d/2):
+                i=k
+                for j in range(k,width-k):
+                    result.append(matrix[i][j])
+                for i in range(k+1,height-k):
+                    result.append(matrix[i][j])
+                for j in range(width-2-k,k-1,-1):
+                    result.append(matrix[i][j])
+                for i in range(height-2-k,k,-1):
+                    result.append(matrix[i][j])
+                k=k+1
+        else:
+            k=0
+            while k<(d-1)/2:
+                i=k
+                for j in range(k,width-k):
+                    result.append(matrix[i][j])
+                for i in range(k+1,height-k):
+                    result.append(matrix[i][j])
+                for j in range(width-2-k,k-1,-1):
+                    result.append(matrix[i][j])
+                for i in range(height-2-k,k,-1):
+                    result.append(matrix[i][j])
+                k=k+1
+            i=k
+            for j in range(k,width-k):
+                result.append(matrix[i][j])
+        return result
