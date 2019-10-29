@@ -98,6 +98,9 @@ def sctip17(a):
         c=[]
     return c
 
+def test17(a):
+    b=list(a)
+
 
         
         
