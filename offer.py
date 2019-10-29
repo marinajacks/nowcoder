@@ -70,28 +70,24 @@ def getnums():
                 nums+=1
     return nums
 
-
+#计算出现次数为1的元素
 a=[2,1,2,3,1]
-
 b=[]
 c=[]
-for i in range(len(a)):
-    if a[i] not in b:
-        b.append(a[i])
-        c.append(0)
-    for j in range(len(b)):
-        if a[i]==b[j]:
-            c[j]=c[j]+1
-for i in range(len(c)):
-    if(c[i]%2==1):
-        print(b[i])
-        
-        
-        
-        return b[i]
+def test(a):
+    for i in range(len(a)):
+        if a[i] not in b:
+            b.append(a[i])
+            c.append(0)
+        for j in range(len(b)):
+            if a[i]==b[j]:
+                c[j]=c[j]+1
+    for i in range(len(c)):
+        if(c[i]%2==1):
+            print(b[i])
+    return b[i]
 
-    
-    
+#计算出现次数为1的元素
 def  test3(a):
     b=[]
     c=[]
@@ -105,14 +101,15 @@ def  test3(a):
     for i in range(len(c)):
         if(c[i]==max(c)):
             return b[i]
-        
-        
-b=list(map(int,input().split(' ')))
-print(test3(b))
+if __name__=="__main__":
+    b=list(map(int,input().split(' ')))
+    print(test3(b))
     
+#计算斐波那契数列的简单的方法,输出最后一个数字
+def fibonacci (n):
+    a=[1,1,2]
+    for i in range(2,n):
+        a.append(a[i]+a[i-1])
+    return a[-1]
 
-        s="a"
-        a=s.split(" ")
-        if(a[-1]==""):
-            del a[-1]
-        return len(a[-1])
+#计算抽充好速度

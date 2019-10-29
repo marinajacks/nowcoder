@@ -41,8 +41,8 @@ if __name__=="__main__":
     x=int(input())
     print(reverse(x))
     
-#8.字符串转换整数（atoi)
     
+#8.字符串转换整数（atoi)
 def test3(x):
     a=list(x.strip())
     b=""
@@ -99,8 +99,6 @@ def sctip17(a):
     return c
 
 
-
-
 #子字符串的位置判定            
 def strStr( haystack, needle):
     import re
@@ -110,8 +108,7 @@ def strStr( haystack, needle):
     else:
         return a.span()[0]
         
-        
-
+    
 #54 螺旋矩阵
 '''
 螺旋矩阵的问题，我们需要对这个问题进行分析，了解哪些这个圈层的整体
@@ -137,8 +134,7 @@ def test(m,n):
         for j in range(n):
             b.append(i*n+j+1)
         a.append(b)
-    return a
-         
+    return a   
 def test54(a):
     height=len(a)
     width=len(a[0])
@@ -185,7 +181,7 @@ def test54(a):
     return result
     
 
-
+#这个和上面的一样,都是螺旋矩阵
     def spiralOrder(matrix):
         height=len(matrix)
         width=len(matrix[0])
@@ -221,3 +217,84 @@ def test54(a):
             for j in range(k,width-k):
                 result.append(matrix[i][j])
         return result
+    
+    
+#118题,计算杨辉三角
+def generate(numRows):
+    result=[]
+    for i in range(numRows):
+        temp=[]
+        for j in range(i+1):
+            if(i==j or j==0):
+                temp.append(1)
+            else:
+                temp.append(result[i-1][j-1]+result[i-1][j])
+        result.append(temp)
+    return result
+    
+
+#119题,返回杨辉三角的最后一行
+def getRow( rowIndex):
+    result=[]
+    for i in range(rowIndex):
+        temp=[]
+        for j in range(i+1):
+            if(j==0 or i==j):
+                temp.append(1)
+            else:
+                temp.append(result[i-1][j]+result[i-1][j-1])
+        result.append(temp)
+    return result[rowIndex-1]
+
+
+#120题 三角形最小路径和
+a=[[2], [3, 4], [6, 5, 7], [4, 1, 8, 3]]
+def minimumTotal(triangle):
+    result=[a[0][0]]
+    index=0
+    for i in range(1,len(a)):
+        if(index==0):
+            index0=0
+            for j in range(index,index+2):
+                if(a[i][index0]>a[i][j]):
+                    index0=j
+            index=index0
+            result.append(a[i][index])
+        else:
+            index0=index-1
+            for j in range(index-1,index+2):
+                if(a[i][index0]>a[i][j]):
+                    index0=j
+            index=index0
+            result.append(a[i][index])
+    return sum(result)
+            
+
+#判断一个输入的字符串是不是对称的
+def digitandalpha(s):
+    strs=list(s.lower())
+    strss=[]
+    for i in range(len(strs)):
+        if(strs[i].isdigit() or strs[i].isalpha()):
+            strss.append(strs[i])
+    
+    lens=int(len(strss)/2)
+    flag=True
+    for i in range(lens):
+        if(strss[i]!=strss[len(strss)-1-i]):
+            flag=False
+            break
+        
+    return flag
+
+if __name__=="__main__":
+    s=input()
+    print(digitandalpha(s))
+    
+    
+
+    
+        
+
+    
+    
