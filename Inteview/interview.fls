@@ -169,5 +169,6 @@ INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 OUTPUT interview.xdv
 INPUT Figure/20180709141944471.jpg
+INPUT Figure/Java.png
 INPUT interview.aux
 INPUT ./interview.out
