@@ -113,3 +113,22 @@ def fibonacci (n):
     return a[-1]
 
 #计算抽充好速度
+    
+
+
+
+
+#面试题58:翻转字符串
+def ReverseSentence(sentence):
+    res=sentence.split(' ')
+    res.reverse()
+    return ' '.join(res)
+#面试58:左旋转字符串
+def leftreverse(sentence,n):
+    return sentence[n:len(sentence)]+sentence[0:2]
+    
+
+
+#计算第n个丑数
+
+        

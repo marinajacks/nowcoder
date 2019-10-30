@@ -294,7 +294,17 @@ if __name__=="__main__":
     
 
     
-        
+#两个二进制的数相加，处理思路是，使用字符串，
+#反转的方式，从低级
+def binadd(a,b):
+    a1=list(a)
+    a1.reverse()
+    b1=list(b)
 
-    
+        else:
+            c.append(a[i]+b[i])
+            
+            
+            
+#
     
