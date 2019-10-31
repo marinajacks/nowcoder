@@ -132,3 +132,44 @@ def leftreverse(sentence,n):
 #计算第n个丑数
 
         
+import math
+
+def  ugly(n):
+    for i in range(2,int(math.sqrt(n))):
+        if(n%i==0):
+            for j in range()
+            print(i)
+            
+            
+a='+109090'
+b=list(a)
+#在进行最后测试的时候，注意三个方面的测试，分别是功能测试，边界值测试和特殊输入测试，只有这
+#三个方面的测试都满足后才能算是一个比较好的测试方式。
+def test(a):
+    flag=True
+    b=list(a)
+    if(b=='+' or b=='-'):
+        return 0
+    elif(len(b)>0):
+        if(b[0]=='+' or b[0]=='-'):
+            for i in range(1,len(b)):
+                if(b[i]<'0' or b[i]>'9'):
+                    flag=False
+                    break
+        else:
+            for i in range(len(b)):
+                if(b[i]<'0' or b[i]>'9'):
+                    flag=False
+                    break
+            
+                
+        if(flag==True):
+            if(a[0]=='+'):
+                return int(a[1:len(a)])
+            elif(a[0]=='-'):
+                return  int(a)
+        else:
+            return 0
+    else:
+        return 0
+    
