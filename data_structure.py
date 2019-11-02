@@ -98,7 +98,7 @@ def bubble(data):
         
 #下面是选择排序，我们对这个算法进行实现
 '''
-选择排序的是实现是这样的，
+选择排序的是实现是这样的，从第1个数据开始，从后边的所有的
 
 '''
 def choosesort(data):
@@ -114,6 +114,16 @@ def choosesort(data):
         data[j]=temp
         j=j+1
 
+
+#下面是插入排序，所谓插入排序就是，对后面每一个元素的数据，根据它在前面的位置，将其
+#插入到合适的位置上。
+        
+def insertsort(data):
+    
+    
+    return 0
+        
+        
 if __name__=="__main__":
     a=arrayss(10)
     print(a)
