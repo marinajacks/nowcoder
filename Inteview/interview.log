@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.11.29)  27 OCT 2019 22:42
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.11.29)  2 NOV 2019 11:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -600,88 +600,94 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip62
 )
-(./interview.aux)
+(c:/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (./interview.aux
+
+LaTeX Warning: Label `bs2' multiply defined.
+
+)
 \openout1 = `interview.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 13.
+LaTeX Info: Redefining \selectfont on input line 15.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 13.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 13.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 13.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 13.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 13.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 13.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 13.
-LaTeX Font Info:    Redeclaring math accent \check on input line 13.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 13.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 13.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 13.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 13.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 15.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 15.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 15.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 15.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 15.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 15.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 15.
+LaTeX Font Info:    Redeclaring math accent \check on input line 15.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 15.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 15.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 15.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 15.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 13.
+(Font)              `operators' in the math version `normal' on input line 15.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 13.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 15.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 13.
+(Font)              `operators' in the math version `bold' on input line 15.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 13.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 15.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 13.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 13.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 13.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 13.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 13.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 15.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 13.
+(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 13.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 13.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 13.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 15.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -727,7 +733,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: xetex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 13.
+Package hyperref Info: Link coloring ON on input line 15.
 
 (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -737,23 +743,23 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count280
 )
-LaTeX Info: Redefining \ref on input line 13.
-LaTeX Info: Redefining \pageref on input line 13.
-LaTeX Info: Redefining \nameref on input line 13.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
 
 (./interview.out) (./interview.out)
 \@outlinefile=\write3
 \openout3 = `interview.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.53937> on input line 44.
+(Font)              <10.53937> on input line 46.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 44.
+(Font)              <7> on input line 46.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 44.
+(Font)              <5> on input line 46.
 Missing character: There is no ： in font [lmroman10-regular]:mapping=tex-text;!
 
-Overfull \hbox (4.39561pt too wide) in paragraph at lines 43--50
+Overfull \hbox (4.39561pt too wide) in paragraph at lines 45--52
 []\TU/lmr/m/n/10.53937 Hash \TU/SimSun(0)/m/n/10.53937 分 桶 法：| \TU/lmr/m/n/10.5
 3937 • \TU/SimSun(0)/m/n/10.53937 将 \TU/lmr/m/n/10.53937 100G \TU/SimSun(0)/m/n
 /10.53937 文 件 分 成 \TU/lmr/m/n/10.53937 1000 \TU/SimSun(0)/m/n/10.53937 份，|  将 每
@@ -766,7 +772,7 @@ h\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 ip\OT1/cmr/m/n/10.53937 )[]1000$
 LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <10.53937> not avail
 able
 (Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 
-50.
+52.
 [1
 
 ] [2]
@@ -788,10 +794,12 @@ Missing character: There is no ⑦ in font [lmroman10-regular]:mapping=tex-text;
 Missing character: There is no ⑩ in font [lmroman10-regular]:mapping=tex-text;!
 File: Figure/Java.png Graphic file (type bmp)
 <Figure/Java.png>
- [4] [5]
-Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
- [6] [7] [8] [9]
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 144.
+
+[4] [5] [6] [7] [8] [9]
 Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
  [10] [11]
@@ -804,15 +812,20 @@ Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text;
 Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text;!
- [16] [17]
-[18]
-Overfull \hbox (23.13243pt too wide) in paragraph at lines 915--916
+
+Overfull \hbox (67.2755pt too wide) in paragraph at lines 713--758
+\TU/lmr/m/n/10.53937 PoolExecutor(int corePoolSize, int maximumPoolSize, long k
+eepAliveTime, TimeUnit unit, BlockingQueue<Runnable>
+ []
+
+[16] [17] [18]
+Overfull \hbox (23.13243pt too wide) in paragraph at lines 843--844
 []\TU/SimSun(0)/m/n/10.53937 应 用 类 加 载 器  |（系 统 类 加 载 器） ：|  这 个 类 加 载 器 是 由 \T
 U/lmr/m/n/10.53937 AppClassLoader |\TU/SimSun(0)/m/n/10.53937 （\TU/lmr/m/n/10.5
 3937 sun.misc.Launcher$AppClassLoader\TU/SimSun(0)/m/n/10.53937 ）|
  []
 
-[19]
+[19] [20]
 Missing character: There is no 因 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 为 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 后 in font [lmroman10-regular]:mapping=tex-text;!
@@ -856,138 +869,27 @@ Missing character: There is no 在 in font [lmroman10-regular]:mapping=tex-text;
 Missing character: There is no 改 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 变 in font [lmroman10-regular]:mapping=tex-text;!
 
-Overfull \hbox (2809.2947pt too wide) in paragraph at lines 985--1020
+Overfull \hbox (2809.2947pt too wide) in paragraph at lines 910--943
 []$\OML/cmm/m/it/10.53937 staticintlen\OT1/cmr/m/n/10.53937 ; //[][][][][][][][
 ][][][][]\OML/cmm/m/it/10.53937 lenpublicstaticvoidheapSort\OT1/cmr/m/n/10.5393
 7 (\OML/cmm/m/it/10.53937 int\OT1/cmr/m/n/10.53937 []\OML/cmm/m/it/10.53937 num
 s\OT1/cmr/m/n/10.53937 )[]\OML/cmm/m/it/10.53937 publicstaticvoidadjustMaxHeap\
 OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 int\OT1/cmr/m/n/10.53937 []\OML/cm
-m/m/it/10.53937 nums; inti\OT1/cmr/m/n/10.53937 )[]$
+m/m/it/10.53937 nums; inti\OT1/cmr/m/n/10.53937 )[]$ 
  []
 
-[20]
+[21]
 
-! LaTeX Error: Environment tabularx undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1075 \begin{tabularx}
-                       {12cm}{lXl}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1076 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced alignment tab character &.
-l.1077 Start &
-               End  & Character Block Name \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.1077 Start & End  &
-                      Character Block Name \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1078 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 981.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1077--1078
-
+Overfull \hbox (14.10597pt too wide) in paragraph at lines 985--996
+ [][] 
  []
 
-! Misplaced alignment tab character &.
-l.1079 3400  &
-               4DB5 & CJK Unified Ideographs Extension A \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.1079 3400  & 4DB5 &
-                      CJK Unified Ideographs Extension A \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.1080 4E00  &
-               9FFF & CJK Unified Ideographs \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.1080 4E00  & 9FFF &
-                      CJK Unified Ideographs \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1081 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1079--1081
-
- []
-
-
-! LaTeX Error: \begin{table} on input line 1073 ended by \end{tabularx}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1082 \end{tabularx}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[21] [22]
-Overfull \hbox (15.99895pt too wide) in paragraph at lines 1251--1252
+[22] [23]
+Overfull \hbox (15.99895pt too wide) in paragraph at lines 1107--1108
 []\TU/lmr/m/n/10.53937 f\TU/SimSun(0)/m/n/10.53937 、|  针 对 我 们 自 己 的 数 据 库 环 境，
 |  日 志 系 统 是 直 插 入，|  不 修 改 的，|  所 以 我 们 使 用 混 合 引 擎 方 式，| $\OML/cmm/m/it/10.53
 937 ZION[]OG[]B$
@@ -998,46 +900,68 @@ Missing character: There is no ◆ in font [lmroman10-regular]:mapping=tex-text;
 Missing character: There is no ◆ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ◆ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ◆ in font [lmroman10-regular]:mapping=tex-text;!
-[23] [24] [25] [26] [27]
-Runaway argument?
-! Paragraph ended before \begin was complete.
-<to be read again> 
-                   \par 
-l.1508 
-       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+[24] [25] [26]
 
-Runaway argument?
-! Paragraph ended before \end was complete.
-<to be read again> 
-                   \par 
-l.1510 
-       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1262.
 
-No file interview.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1514.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1293.
+
+[27]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1310.
+
 [28]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1514.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1387.
+
+File: Figure/index0.png Graphic file (type bmp)
+<Figure/index0.png>
+[29] [30]
+File: Figure/index1.png Graphic file (type bmp)
+<Figure/index1.png>
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1447.
+
+File: Figure/index2.png Graphic file (type bmp)
+<Figure/index2.png>
+File: Figure/index3.png Graphic file (type bmp)
+<Figure/index3.png>
+[31] [32] [33]
+Underfull \hbox (badness 10000) in paragraph at lines 1638--1639
+
+ []
+
+[34]
+No file interview.bbl.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1663.
+[35]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1663.
  (./interview.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1514.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1514.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1663.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1663.
 
 Package rerunfilecheck Info: File `interview.out' has not changed.
-(rerunfilecheck)             Checksum: 4AFEEF7CB8073ECC2FBF6C293C73FFAB.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1514.
+(rerunfilecheck)             Checksum: 7604C5D5795107EA63CE00DE957205FA.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1663.
  ) 
 Here is how much of TeX's memory you used:
- 23884 strings out of 492956
- 501496 string characters out of 6136893
- 561180 words of memory out of 5000000
- 27711 multiletter control sequences out of 15000+600000
- 533904 words of font info for 52 fonts, out of 8000000 for 9000
+ 23946 strings out of 492956
+ 503873 string characters out of 6136893
+ 573446 words of memory out of 5000000
+ 27763 multiletter control sequences out of 15000+600000
+ 533920 words of font info for 54 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 52i,6n,68p,503b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,11n,68p,503b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on interview.xdv (28 pages, 626572 bytes).
+Output written on interview.xdv (35 pages, 744328 bytes).

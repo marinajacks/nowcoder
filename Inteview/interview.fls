@@ -1,4 +1,4 @@
-PWD D:/project/nowcoder/√Ê ‘
+PWD D:/project/nowcoder/Inteview
 INPUT c:/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt
 INPUT interview.tex
 OUTPUT interview.log
@@ -147,6 +147,8 @@ INPUT c:/texlive/2018/texmf-dist/tex/generic/oberdiek/stringenc.sty
 INPUT c:/texlive/2018/texmf-dist/tex/generic/oberdiek/stringenc.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
 INPUT interview.aux
 INPUT interview.aux
 OUTPUT interview.aux
@@ -170,5 +172,9 @@ INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 OUTPUT interview.xdv
 INPUT Figure/20180709141944471.jpg
 INPUT Figure/Java.png
+INPUT Figure/index0.png
+INPUT Figure/index1.png
+INPUT Figure/index2.png
+INPUT Figure/index3.png
 INPUT interview.aux
 INPUT ./interview.out
