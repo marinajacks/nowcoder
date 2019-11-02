@@ -82,7 +82,38 @@ def quicksort(data):
         return quicksort(left)+[flag]+quicksort(right)
     else:
         return data
+    
+'''
+下面是非常简单的冒泡排序,至于这个算法的实现是一件十分简单的事情，就是比较
+一个数和它后边的一些数的大小，类似冒泡的过程。
+'''
+def bubble(data):
+    for i in range(len(data)):
+        for j in range(i,len(data)):
+            if(data[i]>data[j]):
+                temp=data[i]
+                data[i]=data[j]
+                data[j]=temp
+    
         
+#下面是选择排序，我们对这个算法进行实现
+'''
+选择排序的是实现是这样的，
+
+'''
+def choosesort(data):
+    j=0
+    while (j<len(data)):
+        flag=j
+        for i in range(j+1,len(data)):
+            if(data[flag]>data[i]):
+                flag=i
+                
+        temp=data[flag]
+        data[flag]=data[j]
+        data[j]=temp
+        j=j+1
+
 if __name__=="__main__":
     a=arrayss(10)
     print(a)
