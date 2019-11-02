@@ -12,6 +12,11 @@
 \geometry{a4paper,scale=0.8}
 \usepackage{indentfirst}
 \setlength{\parindent}{2em}
+\usepackage{ listings} 
+\usepackage{ xcolor} 
+\usepackage{fontspec}
+\setmonofont{Consolas}
+
 \begin{document}
 面试问题总结
 \begin{abstract}
@@ -1643,17 +1648,103 @@ Java中的HashMap是一个常见的数据结构,我们这里使用java来看一�
 排序算法分为稳定的和不稳定的排序算法两种情况。这两种情况的根本区别在于，在未排序之前，两个数的大小关系一定的数据，在排序后的位置和排序前的位置是不是保持不变，如果是，那么就是稳定的排序算法，否则就是不稳定的排序算法。例如，数组[4,5,6,2,3,1,7]这样一个数组,我们使用快排，这个数组第二次变成[4,1,6,2,3,5,7],这一步可以看到，原来的5和6的大小关系是5<6,他们之间的位置后来却变成了6在5的前面，所以这个就不是稳定的排序。
 
 \textbf{冒泡排序}
-\newline
+
+1.基本思想
+
+冒泡排序应该是最简单的一种排序算法了，这个算法的基本思想就是让相邻的两个数进行比较，数据中比较小的数据向下沉，数值比较大的向上浮！外层for循环控制循环次数，内层for循环控制两个元素的比较。
+
+2.程序实现
+\lstset{language = Python, numbers=left, 
+         numberstyle=\tiny,keywordstyle=\color{blue!70},
+         commentstyle=\color{red!50!green!50!blue!50},frame=shadowbox,
+         rulesepcolor=\color{red!20!green!20!blue!20},basicstyle=\ttfamily}
+\begin{lstlisting}
+def bubble(data):
+    for i in range(len(data)):
+        for j in range(i,len(data)):
+            if(data[i]>data[j]):
+                temp=data[i]
+                data[i]=data[j]
+                data[j]=temp
+\end{lstlisting}
+3.复杂度分析
+
+冒泡排序的时间复杂度
 \textbf{选择排序}
-\newline
+1.基本思想
+
+
+
+
+2.程序实现
+\lstset{language = Python, numbers=left, 
+         numberstyle=\tiny,keywordstyle=\color{blue!70},
+         commentstyle=\color{red!50!green!50!blue!50},frame=shadowbox,
+         rulesepcolor=\color{red!20!green!20!blue!20},basicstyle=\ttfamily}
+\begin{lstlisting}
+def choosesort(data):
+    j=0
+    while (j<len(data)):
+        flag=j
+        for i in range(j+1,len(data)):
+            if(data[flag]>data[i]):
+                flag=i
+        temp=data[flag]
+        data[flag]=data[j]
+        data[j]=temp
+        j=j+1
+\end{lstlisting}
+3.复杂度分析\\
+时间复杂度：两层循环，第一次遍历n次（n个元素），第二次遍历n-1次数,...依次类推。因此，表达式如下：
+n+(n-1)+(n-2)+...+1=n*(n-1)/2=$O(n^2)$\\
+空间复杂度：没有使用额外的数组来帮助完成排序算法，所以冒泡排序算法的空间复杂度是$O(1)$。
+
 \textbf{插入排序}
-\newline
-\textbf{快速排序}
-\newline
+
+1.基本思想
+
+
+2.程序实现
+\lstset{language = Python, numbers=left, 
+         numberstyle=\tiny,keywordstyle=\color{blue!70},
+         commentstyle=\color{red!50!green!50!blue!50},frame=shadowbox,
+         rulesepcolor=\color{red!20!green!20!blue!20},basicstyle=\ttfamily}
+\begin{lstlisting}
+
+\end{lstlisting}
+
+
+3.复杂度分析
+
+
+\textbf{快速排序\\
+
+1.基本思想
+
+2.程序实现
+
+3.复杂度分析
+
+
+
 \textbf{归并排序}
-\newline
+1.基本思想
+
+2.程序实现
+
+
+3.复杂度分析
+
 \textbf{堆排序}
+1.基本思想
+
+2.程序实现
+
+3.复杂度分析
+
 \subsection{计算机网络}
+计算机网络是面试和软件编程中的重点，在计算机网络的面试中，计算机网络的层级结构，TCP/IP的层级结构是重点。经常会问道的问题包括：计算机网络的结构。UDP和TCP的区别、TCP中的流量控制和拥塞控制、三次握手和四次挥手协议、在浏览器中输入网址后执行的全部过程、https和http的区别。下面我们将会对几个常见的问题进行总结。这里有个参考文献的地址：https://blog.csdn.net/weixin\_41910694/article/details/91960815
+
 \subsection{数据库}
 \subsection{刷题}
 
