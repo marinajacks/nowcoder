@@ -136,4 +136,20 @@ class ListNode:
     def __init__(self, x):
        self.val = x     
        self.next = None
+       
+       
+       
+       
+def sorts(a,left,right):
+    l=left
+    r=right
     
+def  
+    
+
+import math 
+def zips(a):
+    b=[]
+    for i in range(len(a)):
+        b.append(sqrt(pow(a[i][0])+pow(a[i][1])))
+    return zip(a,b)
