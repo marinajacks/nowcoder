@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.11.29)  5 NOV 2019 16:26
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.11.29)  7 NOV 2019 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1080,30 +1080,30 @@ File: Figure/index2.png Graphic file (type bmp)
 [43] [44]
 File: Figure/index3.png Graphic file (type bmp)
 <Figure/index3.png>
- [45]
+ [45] [46] [47] [48]
 No file interview.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2205.
-[46]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2205.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2277.
+[49]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2277.
  (./interview.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2205.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2205.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2277.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2277.
 
 Package rerunfilecheck Info: File `interview.out' has not changed.
-(rerunfilecheck)             Checksum: 9AE2664E8995CD3AE41560BABC582D64.
+(rerunfilecheck)             Checksum: 90A3F3DF532C344291BC4B5667D7F85C.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2205.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2277.
  ) 
 Here is how much of TeX's memory you used:
- 25830 strings out of 492956
- 530484 string characters out of 6136893
+ 25853 strings out of 492956
+ 532064 string characters out of 6136893
  784741 words of memory out of 5000000
- 29598 multiletter control sequences out of 15000+600000
+ 29621 multiletter control sequences out of 15000+600000
  533992 words of font info for 63 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 52i,9n,68p,503b,1738s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,9n,68p,540b,1738s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on interview.xdv (46 pages, 923196 bytes).
+Output written on interview.xdv (49 pages, 988732 bytes).
