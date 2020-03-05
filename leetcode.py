@@ -307,7 +307,22 @@ def binadd(a,b):
         else:
             c.append(a[i]+b[i])
             
-            
-            
-#
-    
+
+
+#二分法求解一个数据的位置,如果查找不到返回 -1
+a=[13,17,25,29,32,35,41,59,73,81,92,105] 
+c=59
+
+def binarySearch(a,c):
+    left=0
+    right=len(a)-1
+    while(left<=right):
+        mid=(left+right)//2
+        if(a[mid]==c):
+            return mid
+        elif(a[mid]>c):
+            right=mid-1
+        else:
+            left=mid+1
+        j=j+1
+    return -1

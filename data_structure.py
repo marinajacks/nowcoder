@@ -98,7 +98,7 @@ def bubble(data):
         
 #下面是选择排序，我们对这个算法进行实现
 '''
-选择排序的是实现是这样的，
+选择排序的是实现是这样的，从第1个数据开始，从后边的所有的
 
 '''
 def choosesort(data):
@@ -114,10 +114,171 @@ def choosesort(data):
         data[j]=temp
         j=j+1
 
+
+#下面是插入排序，所谓插入排序就是，对后面每一个元素的数据，根据它在前面的位置，将其
+#插入到合适的位置上。
+        
+def insertsort(data):
+    
+    
+    return 0
+        
+        
 if __name__=="__main__":
     a=arrayss(10)
     print(a)
     print(quicksort(a))
     
+        
+    
+    
+class ListNode:
+    def __init__(self, x):
+       self.val = x     
+       self.next = None
+       
+       
+       
+       
+def sorts(a,left,right):
+    l=left
+    r=right
+
+
+
+
+import math 
+def zips(a):
+    b=[]
+    for i in range(len(a)):
+        b.append(math.sqrt(pow(a[i][0],2)+pow(a[i][1],2)))
+    return dict(zip(a,b))
+
+
+
+
+
+def merge(nums1, nums2):
+    """
+    Do not return anything, modify nums1 in-place instead.
+    """
+    i=0
+    j=0
+    result=[]
+    while (i<len(nums1) and j<len(nums2)):
+        if(nums1[i]<nums2[j]):
+            result.append(nums1[i])
+            i=i+1
+        else:
+            result.append(nums2[j])
+            j=j+1
+        
+    if(i<len(nums1)):
+        result=result+nums1[i:len(nums1)]
+    else:
+        result=result+nums2[j:len(nums2)]
+    return result
+
+
+
+def merge(nums1, m, nums2 ,n):
+    i=0
+    j=0
+    result=[]
+    while (i<m and j<n):
+        if(nums1[i]<nums2[j]):
+            result.append(nums1[i])
+            i=i+1
+        else:
+            result.append(nums2[j])
+            j=j+1
+        
+    if i<m:
+        result=result+nums1[i:len(nums1)]
+    else:
+        result=result+nums2[j:len(nums2)]
+    return result
+                     
+
+
+
+
+
+def box_2_kitti_format(box):
+    '''Transform box for KITTI label format'''
+    x = box[0]
+    y = box[1]
+    w = box[2]
+    h = box[3]
+    left = int(x - w/2)
+    right = int(x + w/2)
+    top = int(y - h/2)
+    bot = int(y + h/2)
+    return [left,top,right,bot]
+
+def kitti_2_box_format(label):
+
+    '''Transform KITTI label format to box'''
+    xl = label[0]
+    yt = label[1]
+    xr = label[2]
+    yb = label[3]
+    w = xr - xl
+    h = yb - yt
+    xc = int(xl + w/2)
+    yc = int(yt + h/2)
+    return [xc, yc, w, h]
+
+
+def iou(box1, box2):
+  """Compute the Intersection-Over-Union of two given boxes.
+
+  Args:
+    box1: array of 4 elements [cx, cy, width, height].
+    box2: same as above
+  Returns:
+    iou: a float number in range [0, 1]. iou of the two boxes.
+  """
+
+  lr = min(box1[0]+0.5*box1[2], box2[0]+0.5*box2[2]) - \
+      max(box1[0]-0.5*box1[2], box2[0]-0.5*box2[2])
+  if lr > 0:
+    tb = min(box1[1]+0.5*box1[3], box2[1]+0.5*box2[3]) - \
+        max(box1[1]-0.5*box1[3], box2[1]-0.5*box2[3])
+    if tb > 0:
+      intersection = tb*lr
+      union = box1[2]*box1[3]+box2[2]*box2[3]-intersection
+
+      return intersection/union
+
+  return 0
+
+
+
+x=[542.05 ,175.55, 565.27 ,193.79]
+y=[525.7 ,174.1, 549.7, 191.7]
+z=[564.62 ,174.59, 616.43, 224.74]
+
+x1=kitti_2_box_format(z)
+
+y1=kitti_2_box_format(y)
+ 
+print(iou(x1,y1))
+
+
+
+p='D:\project\服务器\detection_files_2000\error_analysis\det_error_file.txt'
+
+f=open(p,'r')
+
+
+lines=f.readlines()
+
+locs=[]
+
+for line in lines:
+    if 'loc' in line:
+        locs.append(line.strip().split(' '))
+        print(line)
         
     
